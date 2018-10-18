@@ -1,0 +1,33 @@
+body {
+	vw: 100%;	
+	background: #19FF76;
+}
+.main_rect {
+	width: 275px;
+	height: 560px;
+	background: #fff;
+	margin: 40px auto;
+}
+.square {
+	width: 100px;
+	height: 100px;
+	background: #C4FFC2;
+	border: 2px dotted #29BB2E;
+	display: inline-block;
+	margin: 20px 20px 0 20px;
+}
+.square:nth-child(4n+2),
+.square:nth-child(4n+3){
+	background: #13E08A;
+}
+.square:nth-child(2n) {
+	margin-left: 0;
+}
+.square:nth-last-child(2){
+	margin-bottom: 30px;
+}
+.square:last-child {
+	width: 70px;
+	height: 130px;
+	background: #1A5F0A;
+}
